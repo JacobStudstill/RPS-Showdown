@@ -24,7 +24,7 @@ function computerans(){
 //function to get user answer
 function userans(){
     //Prompt user to get 
-    var userinput = prompt ("Please select a 'R' for Rock, 'P' for Paper, and 'S' and Scissors")
+    var userinput = prompt ("Please input a 'R' for Rock, 'P' for Paper, and 'S' and Scissors")
     userinput = userinput.toUpperCase();
     if (userinput== 'R'){
         userinput = rvalue;
